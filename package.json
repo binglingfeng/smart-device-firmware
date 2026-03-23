@@ -1,0 +1,23 @@
+{
+  "name": "smart-device-firmware",
+  "version": "1.0.0",
+  "description": "Smart hardware firmware with power monitoring, group control, display and Home Assistant integration",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binglingfeng/smart-device-firmware.git"
+  },
+  "author": "binglingfeng",
+  "license": "UNLICENSED",
+  "framework": "arduino",
+  "platform": "espressif32",
+  "dependencies": {
+    "platformio": "^6.1.0"
+  },
+  "scripts": {
+    "build": "pio run",
+    "upload": "pio run --target upload",
+    "monitor": "pio device monitor",
+    "clean": "pio run --target clean"
+  }
+}
